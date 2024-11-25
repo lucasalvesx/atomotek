@@ -2,6 +2,10 @@ body {
     background-image: url(dev_background.png);
 }
 
+.container{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 #logo {
     display: center;
     width: 100%;
