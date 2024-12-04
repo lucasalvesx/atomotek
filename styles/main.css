@@ -1,3 +1,9 @@
+@import url('https://fonts.cdnfonts.com/css/garet');
+
+*{
+    font-family: 'Garet', sans-serif;                                             
+}
+
 body {
     background-image: url(./bgIcon.png);
 }
@@ -48,7 +54,7 @@ header {
 }
 
 .footer {
-    background-image: url(./bgIcon.png)
+    background-image: url(./bgIcon.png);
     color: white;
     text-align: center;
     margin: auto;
