@@ -1,5 +1,5 @@
 body {
-    background-image: url(./freepik-background.jpg);
+    background-image: url(./bgIcon.png);
 }
 
 .container{
@@ -46,7 +46,7 @@ header {
 }
 
 .footer {
-    background-image: url(./freepik-background.jpg)
+    background-image: url(./bgIcon.png)
     background-color: rgb(36, 117, 211);
     color: white;
     text-align: center;
