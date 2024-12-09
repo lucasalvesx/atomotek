@@ -52,7 +52,7 @@ header {
 }
 
 /* Centering Divs !!!!!!*/
-.conteudo,
+/* .conteudo, */
 .fale-conosco,
 .quem-somos,
 .nossos-servicos {
@@ -60,6 +60,14 @@ header {
     margin: 10px;
 }
 
+#building{
+    display: block;
+    margin-left: auto; 
+    margin-right: 150px; 
+    margin-top: 40px;
+    width: 40%;
+     
+}
 .fale-conosco{
     display: flex;
     justify-content: space-between;
