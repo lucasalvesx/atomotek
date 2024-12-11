@@ -8,6 +8,7 @@
 body {
     background-image: url(./bgIcon.png);
     font-family: 'Garet', sans-serif;
+    padding-top: 80px;
 }
 
 header {
@@ -15,6 +16,12 @@ header {
     padding: 10px;
     margin: 0;
     height: fit-content;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000; /* Garante que fique acima de outros elementos */
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
 }
 
 
@@ -50,6 +57,17 @@ header {
 #href {
     color: #fff;
 }
+.texto-imagem{
+    display: flex; /*alinhar na mesma linha*/
+    align-items: center; /* alinhar vertical*/
+    justify-content: flex-start; /*alinhar a esquerda*/
+}
+.botoes{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
 
 /* Centering Divs !!!!!!*/
 .conteudo,
@@ -63,12 +81,18 @@ header {
 }
 
 #building {
-    display: block;
-    margin-left: auto;
-    margin-right: 150px;
-    margin-top: 40px;
-    width: 40%;
+    width: 80%;
+    height: auto;
+    margin: 0 auto;
 
+}
+h2{
+    font-weight: bold;
+    color: #ffffffff;   
+}
+h4{
+    font-weight: normal;
+    color: #ffffffff
 }
 
 .fale-conosco {
@@ -109,14 +133,17 @@ header {
     background-color: #fff;
     font-weight: 600;
     border-radius: 30px;
+    border: 2px solid #0554bd;
 }
 #btn-catalogo a{
     color: #ffffffff;
     text-decoration: none;
-    background-color: #014926;
-    align-items: center;
     font-weight: 400;
+}
+#btn-catalogo{
+    background-color: #014926;
     border-radius: 30px;
+    padding: 10px 20px;
 }
 
 .footer {
