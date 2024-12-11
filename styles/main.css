@@ -55,7 +55,8 @@ header {
 .conteudo,
 .fale-conosco,
 .quem-somos,
-.nossos-servicos {
+.nossos-servicos{
+    display: grid;
     text-align: center;
     flex-direction: row;
     margin: 10px;
