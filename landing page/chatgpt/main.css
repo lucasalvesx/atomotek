@@ -1,0 +1,31 @@
+/* CSS customizado */
+body {
+    background-color: #38b6ff;
+    color: #ffffff;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+}
+
+.container {
+    text-align: center;
+    padding: 50px;
+    border: 2px solid #ddd;
+    border-radius: 10px;
+    background-color: #009d51;
+}
+
+.icon {
+    font-size: 100px;
+    color: #007bff;
+}
+
+h1 {
+    color: #ffffff;
+}
+
+.message {
+    color: #ffffff;
+}
