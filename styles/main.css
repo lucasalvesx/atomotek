@@ -4,6 +4,9 @@
 * {
     font-family: 'Garet';
 }
+a{
+    text-decoration: none;
+}
 
 body {
     background-image: url(./bgIcon.png);
@@ -156,6 +159,9 @@ h4 {
     border-radius: 30px;
     border: 2px solid #0554bd;
 }
+#btn-avise a{
+    text-decoration: none;
+}
 
 #btn-catalogo a {
     color: #ffffffff;
@@ -168,7 +174,13 @@ h4 {
     border-radius: 30px;
     padding: 10px 20px;
 }
-
+.btn-aviso:hover, .btn-catalogo:hover {
+    filter: brightness(0.9); 
+}
+.botoes{
+    gap: 20px; /* Espaçamento horizontal entre os botões */
+    margin: 20px 0; /* Espaço acima e abaixo */
+}
 
 .footer {
     background-image: url(./bgIcon.png);
