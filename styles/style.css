@@ -1,0 +1,218 @@
+body {
+    background-color: white;
+    color: white;
+    font-family: poppinsregular;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 15px;
+}
+
+header {
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px; 
+    border-bottom: 1px solid #ddd; 
+}
+
+#title {
+    display: flex; 
+    align-items: center; 
+}
+
+#title img {
+    height: 120px; 
+    width: 450px; 
+    margin-right: 20px; 
+    cursor: pointer;
+}
+
+#hero-text-2{
+    color: #014926;
+}
+li {
+    display: inline-block;
+    margin: 20px;
+}
+
+a {
+    color: #014926;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #0554bd;
+    transition: 0.3s all;
+}
+
+#inscreva-se-btn {
+    border: 2px solid #014926;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+#inscreva-se-btn:hover {
+    background-color: red;
+    color: white;
+}
+
+h1 {
+    font-weight: 200;
+    color: #0554bd;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+}
+
+h2 {
+    color: #0554bd;
+    font-size: 56px;
+    line-height: 10px;
+    font-family: poppinsmedium;
+}
+
+span {
+    color: #0554bd;
+}
+
+p {
+    color: #0554bd;
+    line-height: 20px;
+    max-width: 500px;
+    font-family: poppinslight;
+}
+
+img {
+    width: 580px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    border: #014926;
+}
+
+form [type="submit"] {
+    height: 50px;
+    width: 50%;
+    background-color: #38b6ff;
+    color: white;
+    font-weight: bold;
+}
+
+form [type="submit"]:hover {
+    cursor: pointer;
+    background-color: #13ba1b;
+}
+
+input {
+    margin-top: 20px;
+    height: 20px;
+    padding: 15px;
+    border-radius: 20px;
+    border: #0554bd;
+    font-size: 15px;
+}
+
+footer{
+    background-color: #0554bd;
+    padding: 50px 0;
+}
+.container-footer{
+    max-width: 1400px;
+    padding: 0 4%;
+    margin: auto;
+}
+.row-footer{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.footer-col{
+    width: 25%;
+    padding: 0 15px;
+}
+.footer-col h4{
+    font-size: 22px;
+    color: white;
+    margin-bottom: 20px;
+    font-weight: 500;
+    position: relative;
+    text-transform: uppercase;
+}
+.footer-col ul{
+    list-style: none;
+}
+.footer-col ul li{
+    margin: 10px 0;
+}
+.footer-col ul li a{
+    font-size: 16px;
+    text-transform: capitalize;
+    color: white;
+    text-decoration: none;
+    font-weight: 300;
+    display: block;
+    transition: all 0.3s ease;
+}
+.footer-col ul li a:hover{
+    color: #cecdcd;
+    padding-left: 10px;
+}
+.footer-col .medias-socias{
+    margin-top: 30px;
+}
+.footer-col .medias-socias a{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    width: 40px;
+    margin: 0 10px 10px 0;
+    text-decoration: none;
+    border-radius: 50%;
+    color: white;
+    border: 1px solid white;
+    transition: all 0.5s ease;
+}
+.footer-col .medias-socias a i{
+    font-size: 20px;
+}
+
+.footer-col .medias-socias a:hover{
+    color: #415aca;
+    background-color: white;
+}
+.footer-col .form-sub input{
+    width: 100%;
+    padding: 10px;
+    font-size: 15px;
+    outline: none;
+    border: 1px solid white;
+    color: white;
+    background-color: #415aca;
+}
+.footer-col .form-sub input::placeholder{
+    color: white;
+}
+.footer-col .form-sub button{
+    width: 100%;
+    margin-top: 10px;
+    padding: 10px; 
+    font-size: 17px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    color: #415aca;
+    border-radius: 3px;
+    font-weight: bold;
+    background-color: white;        
+}
+
+
