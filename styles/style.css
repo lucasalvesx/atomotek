@@ -97,18 +97,25 @@ form {
     width: 70%;
     border: #014926;
 }
-
-form [type="submit"] {
-    height: 50px;
-    width: 50%;
-    background-color: #38b6ff;
-    color: white;
+#aviseme {
+    text-align: center;
+    margin-top: 20px;
+}
+#aviseme-btn {
+    display: inline-block;
+    padding: 15px 30px;
+    background-color: #38b6ff; 
+    color: black; 
+    font-size: 16px;
     font-weight: bold;
+    text-decoration: none; 
+    border-radius: 20px; 
+    transition: background-color 0.3s ease;
 }
 
-form [type="submit"]:hover {
-    cursor: pointer;
+#aviseme-btn:hover {
     background-color: #13ba1b;
+    cursor: pointer;
 }
 
 input {
@@ -120,7 +127,85 @@ input {
     font-size: 15px;
 }
 
-footer{
+footer {
+    background-color: #0554bd;
+    padding: 30px 15px;
+    color: white;
+}
+
+.container-footer {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.row-footer {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.footer-col {
+    flex: 1 1 calc(33.333% - 20px);
+    min-width: 200px;
+}
+
+.footer-col h4 {
+    font-size: 18px;
+    margin-bottom: 15px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.footer-col ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-col ul li {
+    margin: 10px 0;
+}
+
+.footer-col ul li a {
+    font-size: 14px;
+    text-decoration: none;
+    color: white;
+    transition: color 0.3s;
+}
+
+.footer-col ul li a:hover {
+    color: #dcdcdc;
+}
+
+.logo-col {
+    text-align: center;
+}
+
+.footer-logo {
+    max-width: 150px;
+    height: auto;
+    margin: 0 auto;
+}
+
+.back-to-top {
+    display: inline-block;
+    margin-top: 20px;
+    color: white;
+    text-decoration: underline;
+    font-size: 14px;
+}
+
+.back-to-top:hover {
+    color: #dcdcdc;
+}
+
+
+/* footer{
     background-color: #0554bd;
     padding: 50px 0;
 }
@@ -215,4 +300,4 @@ footer{
     background-color: white;        
 }
 
-
+ */
