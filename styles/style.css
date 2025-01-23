@@ -105,7 +105,7 @@ form {
     display: inline-block;
     padding: 15px 30px;
     background-color: #38b6ff; 
-    color: black; 
+    color: white; 
     font-size: 16px;
     font-weight: bold;
     text-decoration: none; 
@@ -128,8 +128,8 @@ input {
 }
 
 footer {
-    background-color: #0554bd;
-    padding: 30px 15px;
+    background-color: white;
+    padding: 10px 10px;
     color: white;
 }
 
@@ -183,19 +183,21 @@ footer {
 }
 
 .logo-col {
-    text-align: center;
+    text-align: left;
 }
 
 .footer-logo {
     max-width: 150px;
     height: auto;
-    margin: 0 auto;
+    margin: 0 ;
+    align-items: start;
+    display: block;
 }
 
 .back-to-top {
     display: inline-block;
     margin-top: 20px;
-    color: white;
+    color: black;
     text-decoration: underline;
     font-size: 14px;
 }
