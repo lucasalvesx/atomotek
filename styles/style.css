@@ -1,3 +1,11 @@
+:root {
+    --primary-color: #0554bd;
+    --secondary-color: #38b6ff;
+    --text-color: #333;
+    --background-color: #f4f4f4;
+    --font-family: 'Poppins', sans-serif;
+}
+
 body {
     background-color: white;
     color: white;
